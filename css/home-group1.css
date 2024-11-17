@@ -1,0 +1,234 @@
+/* Kontener, aby umożliwić pełną szerokość i umieścić divy obok siebie */
+#_1_82_Group_1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden; /* Zapobiega przewijaniu */
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row; /* Zmiana z wrap na nowrap, aby umieścić divy obok siebie */
+}
+
+#_1_85_IMG_2398_1, #_1_86_Frame_1 {
+  flex: 1; /* Ustawione na 50% szerokości każdego diva */
+  height: 694.45px; /* Używamy podanej wysokości */
+}
+
+/* Stylizacja obrazu */
+#_1_85_IMG_2398_1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Stylizacja sekcji tekstu */
+#_1_86_Frame_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Umożliwia centrowanie w pionie */
+  align-items: flex-start; /* Umożliwia wyjustowanie tekstu do lewej */
+  padding: 5rem; /* Poprawiono padding */
+}
+
+/* Stylizacja ramki 28 */
+#_1_87_Frame_28 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  gap: 40px;
+  width: 410.52px;
+  height: 482px;
+  margin-top: 20px;
+}
+
+#_1_87_Frame_28 span,
+#_1_87_Frame_28 div {
+  align-items: flex-start; /* Wyśrodkowanie zawartości divów i spanów w pionie */
+}
+
+/* Stylizacja tekstu Massa fermentum */
+#Massa_fermentum {
+  color: #F4E5D7;
+  font-family: 'Plus Jakarta Sans', sans-serif; /* Dodano czcionkę */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Stylizacja ramki 26 */
+#_1_89_Frame_26 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+/* Stylizacja tekstu Rutrum odio morbi nullam est arcu egestevas */
+#Rutrum_odio_morbi_nullam_est_arcu_egestevas_ {
+  color: #F3F3F3;
+  font-family: Taviraj;
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 49px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: 410.52px;
+  height: 147px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Stylizacja tekstu Sed sagittis tempus sed at vitae id id sem suspendisse */
+#Sed_sagittis_tempus_sed_at_vitae_id_id_sem_suspendisse_ {
+  color: #F3F3F3;
+  font-family: Taviraj;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 410.52px;
+  height: 162px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Stylizacja ramki 35 */
+#_1_92_Frame_35 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Stylizacja buttona large-secondary */
+#_1_94__large-secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 30px;
+  gap: 12px;
+  width: 183px;
+  height: 44px;
+  background: #323231;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+  box-sizing: border-box;
+  border: none; /* Usunięcie domyślnej obramówki przycisku */
+  cursor: pointer; /* Dodanie wskaźnika kursora */
+  white-space: nowrap;
+  align-self: flex-start;
+}
+
+#_1_94__large-secondary span {
+  color: #EFEFEF;
+  font-family: 'Plus Jakarta Sans', sans-serif; /* Dodano czcionkę */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button-text {
+  color: #EFEFEF;
+  font-family: 'Plus Jakarta Sans', sans-serif; /* Dodano czcionkę */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap; /* Zapobieganie zawijaniu się tekstu */
+}
+
+/* Stylizacja tekstu Poznaj nas */
+#Poznaj_nas {
+  color: #EFEFEF;
+  font-family: 'Plus Jakarta Sans', sans-serif; /* Dodano czcionkę */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Stylizacja obrazka w buttonie */
+#_1_97_System_arrow_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+#_1_97_System_arrow_right img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Polepszenie responsywności na mniejszych ekranach */
+@media (max-width: 992px) {
+  .row {
+    flex-direction: column; /* Zmiana układu na kolumnę na mniejszych ekranach */
+  }
+
+  #_1_85_IMG_2398_1, #_1_86_Frame_1 {
+    width: 100%;
+    height: auto; /* Automatyczna wysokość na mniejszych ekranach */
+  }
+
+  #_1_85_IMG_2398_1 img {
+    width: 100%;
+    height: auto; /* Automatyczna szerokość i wysokość dla obrazu na mniejszych ekranach */
+  }
+}
+
+@media (max-width: 768px) {
+  #_1_86_Frame_1 {
+    padding: 2rem; /* Zmniejszenie paddingu na mniejszych ekranach */
+  }
+
+  #_1_87_Frame_28 {
+    width: 100%; /* Dostosowanie szerokości elementu do mniejszych ekranów */
+    height: auto; /* Automatyczna wysokość dla poprawnego wyświetlania */
+    margin-top: 10px; /* Zmniejszenie marginesu na mniejszych ekranach */
+  }
+
+  #Rutrum_odio_morbi_nullam_est_arcu_egestevas_ {
+    font-size: 36px; /* Zmniejszenie rozmiaru czcionki na mniejszych ekranach */
+    line-height: 40px;
+    width: 100%; /* Dostosowanie szerokości do ekranu */
+  }
+
+  #Sed_sagittis_tempus_sed_at_vitae_id_id_sem_suspendisse_ {
+    font-size: 14px; /* Zmniejszenie rozmiaru czcionki na mniejszych ekranach */
+    line-height: 24px;
+    width: 100%; /* Dostosowanie szerokości do ekranu */
+  }
+}
