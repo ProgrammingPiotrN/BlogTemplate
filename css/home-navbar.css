@@ -1,4 +1,3 @@
-/* Reset */
 body {
   margin: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -18,6 +17,26 @@ body {
     rgba(53, 53, 53, 1) 100%
   );
   height: 93px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo-container {
+  height: 46px;
+  width: 178px;
+  position: relative;
+  left: 152px;
+}
+
+.logo-img {
+  max-height: 100%;
+}
+
+.navbar-nav {
+  margin-right: 150px;
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
@@ -26,89 +45,15 @@ body {
   text-transform: uppercase;
   line-height: 15px;
   letter-spacing: 10%;
+  color: #f4e5d7; /* Stały kolor */
+  opacity: 0.6; /* Stała przezroczystość */
+}
+
+/* Usunięcie efektów hover */
+.nav-link:hover {
+  opacity: 0.6;
 }
 
 .long-link {
-  line-height: 1.1; /* Zmniejszenie line-height, aby ułatwić wyświetlanie dwóch wierszy */
-}
-
-.logo-img {
-  height: 100%;
-}
-
-.navbar-inner {
-  height: 100%; /* Ustawienie wewnętrznego kontenera na pełną wysokość nagłówka */
-  position: relative;
-}
-
-/* Mobile and tablet menu */
-@media (max-width: 991px) {
-  /* Przesunięcie logo w lewo na mniejszych ekranach */
-  .logo-container {
-    position: absolute;
-    left: 10px; /* Przesunięcie logo w lewo */
-    top: 50%;
-    transform: translateY(-50%); /* Wyśrodkowanie logo w pionie */
-  }
-
-  /* Ustawienie menu pod logo */
-  .navbar-inner {
-    display: flex;
-    flex-direction: column; /* Menu poniżej logo */
-    justify-content: center;
-  }
-
-  .navbar-nav {
-    text-align: center; /* Wyrównanie menu na środku */
-    margin-top: 20px; /* Dodatkowy odstęp od logo */
-    width: 100%; /* Menu na całą szerokość */
-    display: block;
-  }
-
-  /* Przycisk menu (toggler) po lewej stronie, wyżej na navbarze */
-  .navbar-toggler {
-    position: relative; /* Ustawienie przycisku absolutnie */
-    right: 100px; /* Przyklejenie do lewej strony */
-    top: -25px; /* Przesunięcie przycisku wyżej */
-    transform: translateY(0); /* Brak przesunięcia w pionie */
-  }
-
-  /* Ustawienie, aby elementy menu pojawiały się w odpowiedni sposób */
-  .navbar-collapse {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    text-align: center; /* Wyrównanie menu w poziomie */
-  }
-
-  /* Usunięcie marginesów w navbarze, by menu nie nachodziło na logo */
-  .navbar-container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .navbar-nav .nav-item {
-    padding: 8px 0; /* Dodatkowy odstęp między elementami menu */
-  }
-
-  /* Przycisk menu z ikoną */
-  .navbar-toggler-icon {
-    background-color: transparent; /* Zmiana koloru ikony */
-    border: none;
-  }
-}
-
-/* Desktop menu */
-@media (min-width: 992px) {
-  .navbar-nav {
-    display: flex;
-    justify-content: flex-end; /* Menu wyświetlane na prawo */
-    margin-top: 0;
-  }
-
-  .navbar-toggler {
-    display: none; /* Ukrycie przycisku menu na dużych ekranach */
-  }
+  line-height: 1.1;
 }

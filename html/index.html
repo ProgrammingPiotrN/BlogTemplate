@@ -11,91 +11,91 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="../css/home-navbar.css"/>
-  <link rel="stylesheet" href="../css/home-rectangle1.css"/>
-  <link rel="stylesheet" href="../css/home-group1.css"/>
+  <link rel="stylesheet" href="../css/home.css"/>
 </head>
 <body style="margin: 0;">
 <!-- Navbar -->
 <header class="navbar-container">
-  <div class="container-fluid d-flex align-items-center justify-content-between navbar-inner"
-       style="background: linear-gradient(0deg, rgba(35, 35, 33, 1) 0%, rgba(35, 35, 33, 1) 100%),
-                   linear-gradient(0deg, rgba(53, 53, 53, 1) 0%, rgba(53, 53, 53, 1) 100%);
-              height: 93px;">
-    <!-- Logo -->
-    <div class="logo-container" style="height: 46px; width: 178px; position: relative; left: 152px;">
-      <img src="../img/logo/logo.svg" alt="Group" class="logo-img" style="max-height: 100%;"/>
-    </div>
-    <!-- Navigation (for desktop and mobile) -->
-    <nav class="navbar navbar-expand-lg navbar-dark d-flex align-items-center" style="margin-right: 150px;">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto d-flex gap-4">
-          <li class="nav-item">
-            <span class="nav-link" style="color: #f4e5d7; opacity: 0.6;">O nas</span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link" style="color: #f4e5d7;">Wesela</span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link long-link" style="color: #f4e5d7; opacity: 0.6;">Imprezy<br>Okolicznościowe</span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link" style="color: #f4e5d7; opacity: 0.6;">Studniówki</span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link" style="color: #f4e5d7; opacity: 0.6;">Konferencje</span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link" style="color: #f4e5d7; opacity: 0.6;">Noclegi</span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link" style="color: #f4e5d7; opacity: 0.6;">Kontakt</span>
-          </li>
-        </ul>
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-between">
+      <!-- Logo -->
+      <div class="col-auto logo-container">
+        <img src="../img/logo/logo.svg" alt="Group" class="logo-img">
       </div>
-    </nav>
+      <!-- Navigation -->
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-4">
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #f4e5d7; opacity: 0.6;">O nas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #f4e5d7; opacity: 1;">Wesela</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link long-link" href="#" style="color: #f4e5d7; opacity: 0.6;">Imprezy<br>Okolicznościowe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #f4e5d7; opacity: 0.6;">Studniówki</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #f4e5d7; opacity: 0.6;">Konferencje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #f4e5d7; opacity: 0.6;">Noclegi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #f4e5d7; opacity: 0.6;">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
   </div>
 </header>
 
-<!-- Hero Section -->
-<!-- Sekcja Hero -->
 <div id="_1_35_Rectangle_1" class="crectangle1 d-flex justify-content-center align-items-center text-center">
-  <div>
-    <span id="hotel-title" class="text-light text-weight-light">
-      <span class="title-first-word">Zameczek</span> <span class="title-second-word">Emilianów</span><br>
-      <span class="title-third-line">Restauracja &amp; Hotel</span>
-    </span>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <span id="hotel-title" class="text-light">
+          <span class="title-first-word">Zameczek</span> <span class="title-second-word">Emilianów</span><br>
+          <span class="title-third-line">Restauracja & Hotel</span>
+        </span>
+      </div>
+    </div>
   </div>
 </div>
 
 <!-- Sekcja treści -->
-<div id="_1_82_Group_1" class="container-fluid">
-  <div class="row">
-    <!-- Sekcja obrazu -->
-    <div id="_1_85_IMG_2398_1" class="col-md-6 p-0 d-flex align-items-center">
-      <img src="../img/group1/Flowers.png" alt="Group Image" class="img-fluid">
+<div class="container-fluid p-0">
+  <!-- Group_1 -->
+  <div id="party_one" class="row g-0">
+    <div id="part_one_img" class="col-12 col-lg-6 d-flex align-items-center">
+      <img src="../img/party/Flowers.png" alt="Group Image" class="img-fluid">
     </div>
     <!-- Sekcja tekstu -->
-    <div id="_1_86_Frame_1" class="col-md-6 d-flex flex-column justify-content-center align-items-center p-5">
-      <div id="_1_87_Frame_28">
-        <span id="Massa_fermentum">Massa fermentum</span>
-        <div id="_1_89_Frame_26">
-      <span id="Rutrum_odio_morbi_nullam_est_arcu_egestevas_">
-        Rutrum odio morbi nullam est arcu egestevas.
-      </span>
-          <span id="Sed_sagittis_tempus_sed_at_vitae_id_id_sem_suspendisse_">
-        Sed sagittis tempus sed at vitae id id sem suspendisse. Nisi, posuere elementum nec cursus pretium tellus amet. Magna commodo sed arcu nibh. Sit egestas vitae nunc, tellus morbi. Massa, suspendisse enim viverra suspendisse ac.
-      </span>
+    <div id="text_field"
+         class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-lg-5 p-3">
+      <div id="lorem_ipsum_text" class="w-100">
+        <span id="title">Massa fermentum</span>
+        <div id="text">
+          <span id="text_lorem_one">Rutrum odio morbi nullam est arcu egestevas.</span>
+          <span id="text_lorem_two">
+            Sed sagittis tempus sed at vitae id id sem suspendisse. Nisi, posuere elementum nec cursus pretium tellus amet. Magna commodo sed arcu nibh. Sit egestas vitae nunc, tellus morbi. Massa, suspendisse enim viverra suspendisse ac.
+          </span>
         </div>
-        <div id="_1_92_Frame_35">
-          <button id="_1_94__large-secondary">
+        <div id="button_field">
+          <button id="button">
             <span class="button-text">Poznaj nas</span>
-            <div id="_1_97_System_arrow_right">
-              <img src="../img/group1/Vector.png" alt="arrow"/>
+            <div id="vector_img">
+              <img src="../img/party/Vector.png" alt="arrow"/>
             </div>
           </button>
         </div>
@@ -104,6 +104,166 @@
   </div>
 </div>
 
+<div class="container-fluid p-0">
+  <!-- Group_1 -->
+  <div id="party_one" class="row g-0">
+    <div id="part_one_img" class="col-12 col-lg-6 d-flex align-items-center">
+      <img src="../img/party/party_one.png" alt="Group Image" class="img-fluid">
+    </div>
+    <!-- Sekcja tekstu -->
+    <div id="text_field"
+         class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-lg-5 p-3">
+      <div id="lorem_ipsum_text" class="w-100">
+        <span id="title">Massa fermentum</span>
+        <div id="text">
+          <span id="text_lorem_one">Rutrum odio morbi nullam est arcu egestevas.</span>
+          <span id="text_lorem_two">
+            Sed sagittis tempus sed at vitae id id sem suspendisse. Nisi, posuere elementum nec cursus pretium tellus amet. Magna commodo sed arcu nibh. Sit egestas vitae nunc, tellus morbi. Massa, suspendisse enim viverra suspendisse ac.
+          </span>
+        </div>
+        <div id="button_field">
+          <button id="button">
+            <span class="button-text">Poznaj nas</span>
+            <div id="vector_img">
+              <img src="../img/party/Vector.png" alt="arrow"/>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0">
+  <!-- Group_1 -->
+  <div id="party_one" class="row g-0">
+    <!-- Sekcja tekstu -->
+    <div id="text_field"
+         class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-lg-5 p-3">
+      <div id="lorem_ipsum_text" class="w-100">
+        <span id="title">Massa fermentum</span>
+        <div id="text">
+          <span id="text_lorem_one">Rutrum odio morbi nullam est arcu egestevas.</span>
+          <span id="text_lorem_two">
+            Sed sagittis tempus sed at vitae id id sem suspendisse. Nisi, posuere elementum nec cursus pretium tellus amet. Magna commodo sed arcu nibh. Sit egestas vitae nunc, tellus morbi. Massa, suspendisse enim viverra suspendisse ac.
+          </span>
+        </div>
+        <div id="button_field">
+          <button id="button">
+            <span class="button-text">Poznaj nas</span>
+            <div id="vector_img">
+              <img src="../img/party/Vector.png" alt="arrow"/>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="part_one_img" class="col-12 col-lg-6 d-flex align-items-center">
+      <img src="../img/party/party_two.png" alt="Group Image" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0">
+  <!-- Group_1 -->
+  <div id="party_one" class="row g-0">
+    <div id="part_one_img" class="col-12 col-lg-6 d-flex align-items-center">
+      <img src="../img/party/party_three.png" alt="Group Image" class="img-fluid">
+    </div>
+    <!-- Sekcja tekstu -->
+    <div id="text_field"
+         class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-lg-5 p-3">
+      <div id="lorem_ipsum_text" class="w-100">
+        <span id="title">Massa fermentum</span>
+        <div id="text">
+          <span id="text_lorem_one">Rutrum odio morbi nullam est arcu egestevas.</span>
+          <span id="text_lorem_two">
+            Sed sagittis tempus sed at vitae id id sem suspendisse. Nisi, posuere elementum nec cursus pretium tellus amet. Magna commodo sed arcu nibh. Sit egestas vitae nunc, tellus morbi. Massa, suspendisse enim viverra suspendisse ac.
+          </span>
+        </div>
+        <div id="button_field">
+          <button id="button">
+            <span class="button-text">Poznaj nas</span>
+            <div id="vector_img">
+              <img src="../img/party/Vector.png" alt="arrow"/>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="rectangle-8 container-fluid p-0 d-flex justify-content-center align-items-center">
+  <div id="_1_239_Coiumns" class="d-flex flex-row justify-content-center align-items-start gap-5">
+    <div id="_1_240_Frame_6" class="d-flex flex-row justify-content-start align-items-start gap-3">
+      <div id="_1_242_phone-ringing_1" class="position-relative overflow-hidden icon-container">
+        <img id="_1_243" src="../img/contact/phone.png" alt="Vector" class="position-absolute">
+      </div>
+      <span id="Tel____48_602_103_559" class="font-taviraj contact-text">Tel.: +48 602 103 559</span>
+    </div>
+
+    <div id="_1_248_Frame_7" class="d-flex flex-row justify-content-start align-items-start gap-3">
+      <div id="_1_250_envelope__3__1" class="position-relative overflow-hidden icon-container">
+        <img id="_1_243" src="../img/contact/email.png" alt="Vector" class="position-absolute">
+      </div>
+      <span id="e-mail__info_hotelzameczek_com" class="font-taviraj contact-text">e-mail: info@hotelzameczek.com</span>
+    </div>
+
+    <div id="_1_254_Frame_9" class="d-flex flex-row justify-content-start align-items-start gap-3">
+      <div id="_1_256_envelope__3__1" class="position-relative overflow-hidden icon-container">
+        <img id="_1_243" src="../img/contact/address.png" alt="Vector" class="position-absolute">
+      </div>
+      <div id="_1_259_Frame_510"
+           class="d-flex flex-row justify-content-start align-items-start gap-3 address-container">
+        <span id="Adres_" class="font-taviraj contact-text">Adres:</span>
+        <span id="Emilian_w_11___62-840_Emilian_w" class="font-taviraj text-light contact-text">Emilianów 11,<br>62-840 Emilianów</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nowo dodany formularz -->
+  <div id="_1_262_Frame_33" class="form-group-wrapper">
+    <div id="_1_263_TextEdit_group" class="form-textedit-group">
+      <div id="_1_264_TextEdit" class="form-textedit">
+        <span id="Body_Small_sample_sssstext" class="form-placeholder">Imię</span>
+      </div>
+      <div id="_1_266_TextEdit" class="form-textedit">
+        <span id="Nazwisko" class="form-placeholder">Nazwisko</span>
+      </div>
+    </div>
+    <div id="_1_268_TextEdit_group" class="form-textedit-group">
+      <div id="_1_269_TextEdit" class="form-textedit">
+        <span id="Adres_e-mail" class="form-placeholder">Adres e-mail</span>
+      </div>
+      <div id="_1_271_TextEdit" class="form-textedit">
+        <span id="Telefon_kontaktowy" class="form-placeholder">Telefon kontaktowy</span>
+      </div>
+    </div>
+    <div id="_1_273_TextEdit" class="form-message">
+      <span id="Tre___wiadomo_ci" class="form-placeholder">Treść wiadomości</span>
+    </div>
+    <div id="_1_275_Frame_29" class="form-checkbox-wrapper">
+      <div id="_1_276_Checkbox" class="form-checkbox">
+        <div id="_1_277__Checkbox_base" class="form-checkbox-base">
+          <div id="_1_278_check" class="form-checkbox-check">
+            <img id="_1_2" src="assets/images/19019220717.svg" alt="Icon">
+          </div>
+        </div>
+      </div>
+      <span
+        id="Lorem_ipsum_dolor_sit_amet_consectetur__Maecenas_eget_risus_at_congue_nulla__Duis_malesuada_facilisis_enim_malesuada_eget__Scelerisque_vitae_molestie_faucibus_vestibulum_quam_nulla__Quam_eu_feugiat_elit_lobortis_pharetra_sed_aliquet__Dignissim_pulvinar_nisl_ut_aliquam_dictumst_facilisis_"
+        class="form-checkbox-text">Lorem ipsum dolor sit amet consectetur. Maecenas eget risus at congue nulla. Duis malesuada facilisis enim malesuada eget. Scelerisque vitae molestie faucibus vestibulum quam nulla. Quam eu feugiat elit lobortis pharetra sed aliquet. Dignissim pulvinar nisl ut aliquam dictumst facilisis.</span>
+    </div>
+    <div id="_1_281__large-secondary" class="form-submit">
+      <span id="Wy_lij" class="form-submit-text">Wyślij</span>
+      <div id="_1_284_System_arrow_right" class="form-submit-icon">
+        <img id="_1_285" src="assets/images/52553403208.svg" alt="Vector">
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
