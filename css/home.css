@@ -778,7 +778,31 @@ body {
 .Vector {
   width: 12.66px;
   height: 9.30px;
-  background: #535353;
+}
+
+.big_tower {
+  width: 808px;
+  height: 755.42px;
+  border: 1px 0px 0px 0px;
+  position: absolute;
+  top: 0;
+}
+
+.big_tower.right {
+  right: -330px;
+}
+
+.big_tower.left {
+  left: -330px;
+
+}
+
+.layout_one {
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 140px;
+  display: flex;
+  justify-content: center;
 }
 
 .Img23981 {
@@ -793,8 +817,7 @@ body {
 }
 
 .Frame497 {
-  width: 640px;
-  height: 124px;
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -860,7 +883,7 @@ body {
 }
 
 /* Example styling for placeholder images */
-.Layer1, .Capa1, .Vector {
+.Layer1, .Capa1 {
   background: #CFBA9B;
 }
 
