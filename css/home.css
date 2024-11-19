@@ -222,23 +222,26 @@ body {
     rgba(35, 35, 33, 0.1) 100%
   ),
   url('../img/rectangle/rectangle1.png') center / cover no-repeat;
-  height: 923px;
+  height: 930px;
   width: 100%;
   max-width: 100vw;
-  top: 40px;
+}
+
+.crectangle1 > .container-fluid {
+  margin-top: -34px;
 }
 
 #hotel-title {
   font-family: 'Taviraj';
-  font-size: 85px;
-  font-weight: 390;
-  line-height: 87%;
+  font-size: 86px;
+  font-weight: 300;
+  line-height: 75px;
   letter-spacing: -0.02em;
   margin: 0;
   text-align: center;
   color: #fff;
   font-style: normal;
-  padding: 0 2rem;
+  /*padding: 0 2rem;*/
   width: 100%;
 }
 
@@ -522,3 +525,349 @@ body {
   left: calc(100% * 0.09375399);
   top: calc(100% * 0.2093048);
 }
+
+
+.custom-div {
+  background-color: #353535; /* Tło dla widoczności */
+  width: 100%;
+  max-width: 1600px;
+  height: auto; /* Auto dostosowywanie wysokości */
+  aspect-ratio: 1600 / 1932; /* Utrzymanie proporcji */
+}
+
+/* Dodane media queries */
+
+/* Style dla ekranów powyżej 1200px */
+@media (min-width: 1200px) {
+  .navbar-container {
+    height: 93px;
+    padding: 0 20px;
+  }
+
+  .logo-container {
+    height: 46px;
+    width: 178px;
+    position: relative;
+    left: 152px;
+  }
+
+  .navbar-nav {
+    margin-right: 150px;
+    gap: 40px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 10%;
+    color: #f4e5d7;
+    opacity: 0.6;
+  }
+}
+
+/* Style dla ekranów pomiędzy 992px a 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-nav {
+    margin-right: 100px;
+    gap: 30px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 10px;
+  }
+
+  .logo-container {
+    left: 100px;
+  }
+
+  .custom-div {
+    max-width: 960px;
+  }
+}
+
+/* Style dla ekranów pomiędzy 768px a 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-nav {
+    margin-right: 50px;
+    gap: 20px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 8px;
+  }
+
+  .logo-container {
+    left: 50px;
+  }
+
+  .custom-div {
+    max-width: 720px;
+  }
+}
+
+/* Style dla ekranów pomiędzy 576px a 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-nav {
+    margin-right: 25px;
+    gap: 15px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 9px; /* Zwiększono czcionkę */
+  }
+
+  .logo-container {
+    left: 25px;
+  }
+
+  .custom-div {
+    max-width: 540px;
+  }
+
+  .small-text {
+    font-size: 12px;
+  }
+}
+
+/* Style dla ekranów poniżej 576px */
+@media (max-width: 575px) {
+  .navbar-container {
+    padding: 0 10px;
+    height: auto;
+  }
+
+  .navbar-nav {
+    margin-right: 10px;
+    gap: 15px; /* Zwiększono gap */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 10px; /* Zwiększono czcionkę */
+  }
+
+  .logo-container {
+    left: 10px;
+  }
+
+  .custom-div {
+    width: 100%;
+  }
+
+  .crectangle1 {
+    height: 550px; /* Zmniejszenie wysokości */
+  }
+
+  .custom-content {
+    flex-direction: column; /* Zmiana orientacji na kolumnę */
+  }
+
+  .service-text {
+    font-size: 8px; /* Zmniejszenie czcionki */
+  }
+
+  .form-group-wrapper {
+    width: 100%;
+    padding: 0 10px; /* Dodanie paddingu */
+  }
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.TextFrame {
+  width: 1300px;
+  height: 416px;
+  box-shadow: 0px 46px 70px rgba(52.06, 1.3, 1.3, 0.06);
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Frame1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 185px 125px;
+  background: linear-gradient(124deg, #BCBDBF 0%, #D6D6D8 100%);
+  gap: 10px;
+}
+
+.Frame28 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.SzybkiKontakt {
+  color: white;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 2.28px;
+  word-wrap: break-word;
+}
+
+.Frame26 {
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.PlanujeszWeseleSzukaszLokalu {
+  color: #353535;
+  font-size: 42px;
+  font-family: 'Taviraj', serif;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+.Frame35 {
+  display: flex;
+  gap: 10px;
+}
+
+.LargeSecondary {
+  padding: 11px 30px;
+  background: #E4E4E4;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.SkontaktujSi {
+  text-align: center;
+  color: #535353;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 2.28px;
+}
+
+.SystemArrowRight {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Vector {
+  width: 12.66px;
+  height: 9.30px;
+  background: #535353;
+}
+
+.Img23981 {
+  flex: 1;
+  align-self: stretch;
+}
+
+.Rectangle7 {
+  width: 1600px;
+  height: 1867px;
+  background: #353535;
+}
+
+.Frame497 {
+  width: 640px;
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.Frame34 {
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  display: flex;
+}
+
+.NaszeUsUgi {
+  text-align: center;
+  color: #F4E5D7;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 2.28px;
+}
+
+.Frame496 {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ZameczekEmilianWOferuje {
+  text-align: center;
+  color: #F3F3F3;
+  font-size: 46px;
+  font-family: 'Taviraj', serif;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+/* Icon Containers */
+.Frame506,
+.Frame507 {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.Frame498, .Frame499, .Frame500, .Frame501, .Frame502, .Frame503, .Frame504, .Frame505 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.Bufet, .Catering, .Klimatyzacja, .KCikDlaDzieci, .OgrDek, .ImprezyPrywatne, .MiejsceDlaPalCych, .PrzyjCiaWeselne {
+  text-align: center;
+  color: #F3F3F3;
+  font-size: 18px;
+  font-family: 'Taviraj', serif;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* Example styling for placeholder images */
+.Layer1, .Capa1, .Vector {
+  background: #CFBA9B;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Stylowanie sekcji tekstu w mobil
