@@ -1,21 +1,15 @@
-/* Menu */
+/* Body */
 body {
   margin: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
   background: #1e1e1e;
+  max-width: 100vw;
+  overflow-x: hidden
 }
 
-.contact-text {
-  letter-spacing: -0.02em;
-  font-size: 18px;
-  line-height: 26px;
-  color: #F3F3F3;
-}
+/* END Body */
 
-.contact-label-color {
-  color: #969696;
-}
-
+/* Navbar */
 .navbar-container {
   background: linear-gradient(
     0deg,
@@ -27,21 +21,45 @@ body {
     rgba(53, 53, 53, 1) 0%,
     rgba(53, 53, 53, 1) 100%
   );
-  height: 93px;
+  height: 94px;
   display: flex;
   align-items: center;
   padding: 0 20px;
 }
 
-.logo-container {
-  height: 46px;
-  width: 178px;
-  position: relative;
+.navbar-container .nav-link {
+  color: #f4e5d7;
+  opacity: 0.6;
+}
+
+.navbar-container .nav-link.active {
+  opacity: 1;
+}
+
+.navbar-container .nav-link.long-link {
+  display: inline-block;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.title-img > .container-fluid {
+  margin-top: -34px;
+}
+
+.logo-size {
   left: 152px;
 }
 
-.logo-img {
-  max-height: 100%;
+/*.menu-size {*/
+/*  margin-left: 30px;*/
+/*}*/
+
+div-size-menu {
+  width: 791px;
+  height: 30px;
 }
 
 .navbar-nav {
@@ -60,172 +78,25 @@ body {
   opacity: 0.6;
 }
 
+.nav-link {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 15px;
+  letter-spacing: 10%;
+  color: #f4e5d7;
+  opacity: 0.6;
+}
+
 .nav-link:hover {
   opacity: 0.6;
 }
 
-.long-link {
-  line-height: 1.1;
-}
+/* END Navbar */
 
-/* Stylizacja zdjęcia */
-#part_one_img img {
-  object-fit: cover;
-  width: 100%;
-}
+/* Title img */
 
-/* Stylizacja sekcji tekstu */
-#text_field {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Stylizacja ramki 28 */
-#lorem_ipsum_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
-  width: 100%;
-  max-width: 410.52px;
-  margin-top: 20px;
-}
-
-#lorem_ipsum_text span,
-#lorem_ipsum_text div {
-  align-items: flex-start;
-}
-
-/* Stylizacja tekstu Massa fermentum */
-#title {
-  color: #F4E5D7;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0.19em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-/* Stylizacja ramki 26 */
-#text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  width: 100%;
-}
-
-/* Stylizacja tekstu Rutrum odio morbi nullam est arcu egestevas */
-#text_lorem_one {
-  color: #F3F3F3;
-  font-family: Taviraj;
-  font-size: 46px;
-  font-weight: 300;
-  line-height: 49px;
-  letter-spacing: -0.01em;
-  text-align: left;
-  width: 100%;
-  max-width: 410.52px;
-}
-
-/* Stylizacja tekstu Sed sagittis tempus sed at vitae id id sem suspendisse */
-#text_lorem_two {
-  color: #F3F3F3;
-  font-family: Taviraj;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 27px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  width: 100%;
-  max-width: 410.52px;
-  height: 162px;
-}
-
-/* Stylizacja ramki 35 */
-#button_field {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 10px;
-  width: 100%;
-}
-
-/* Stylizacja buttona large-secondary */
-#button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 11px 30px;
-  gap: 12px;
-  width: 183px;
-  height: 44px;
-  background: #323231;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
-  border-radius: 2px;
-  box-sizing: border-box;
-  border: none;
-  cursor: pointer;
-  white-space: nowrap;
-  align-self: flex-start;
-}
-
-#button span {
-  color: #EFEFEF;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0.19em;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.button-text {
-  color: #EFEFEF;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0.19em;
-  text-transform: uppercase;
-  text-align: center;
-  white-space: nowrap;
-}
-
-/* Stylizacja tekstu Poznaj nas */
-#Poznaj_nas {
-  color: #EFEFEF;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0.19em;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/* Stylizacja obrazka w buttonie */
-#vector_img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-}
-
-#vector_img img {
-  width: 100%;
-  height: 100%;
-}
-
-/* Rectangle1 */
-.crectangle1 {
+.title-img {
   position: relative;
   background: linear-gradient(
     0deg,
@@ -238,7 +109,7 @@ body {
   max-width: 100vw;
 }
 
-.crectangle1 > .container-fluid {
+.title-img > .container-fluid {
   margin-top: -34px;
 }
 
@@ -268,6 +139,212 @@ body {
   color: #ddd7d1;
   letter-spacing: -0.02em;
 }
+
+/* END Title img */
+
+/* Photo and content section */
+
+#part_one_img img {
+  object-fit: cover;
+  width: 100%;
+}
+
+#text_field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+#lorem_ipsum_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  max-width: 410.52px;
+  margin-top: 20px;
+}
+
+#lorem_ipsum_text span,
+#lorem_ipsum_text div {
+  align-items: flex-start;
+}
+
+#title {
+  color: #F4E5D7;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#text_lorem_one {
+  color: #F3F3F3;
+  font-family: Taviraj;
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 49px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: 100%;
+  max-width: 410.52px;
+}
+
+#text_lorem_two {
+  color: #F3F3F3;
+  font-family: Taviraj;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: left;
+  width: 100%;
+  max-width: 410.52px;
+  height: 162px;
+}
+
+#button_field {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 30px;
+  gap: 12px;
+  width: 183px;
+  height: 44px;
+  background: #323231;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+
+
+#button span {
+  color: #EFEFEF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button-text {
+  color: #EFEFEF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#vector_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}
+
+#vector_img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* END Photo and content section */
+
+/* Services */
+
+.custom-div {
+  background-color: #353535; /* Tło dla widoczności */
+  width: 100%;
+  max-width: 1600px;
+  height: auto; /* Auto dostosowywanie wysokości */
+  aspect-ratio: 1600 / 1932; /* Utrzymanie proporcji */
+}
+
+
+/* END Services */
+
+
+.contact-text {
+  letter-spacing: -0.02em;
+  font-size: 18px;
+  line-height: 26px;
+  color: #F3F3F3;
+}
+
+.contact-label-color {
+  color: #969696;
+}
+
+.logo-container {
+  height: 46px;
+  width: 178px;
+  position: relative;
+  left: 152px;
+}
+
+.logo-img {
+  max-height: 100%;
+}
+
+
+.long-link {
+  line-height: 1.1;
+}
+
+
+/* Stylizacja ramki 26 */
+#text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+
+/* Stylizacja tekstu Poznaj nas */
+#Poznaj_nas {
+  color: #EFEFEF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 
 .rectangle-8 {
   flex-direction: column;
@@ -337,19 +414,6 @@ footer .navbar-nav {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 10px; /* gap dostosowany do wartości 3 */
-}
-
-.navbar-container .nav-link {
-  color: #f4e5d7;
-  opacity: 0.6;
-}
-
-.navbar-container .nav-link.active {
-  opacity: 1;
-}
-
-.navbar-container .nav-link.long-link {
-  display: inline-block;
 }
 
 .icon-container {
@@ -478,7 +542,6 @@ footer .navbar-nav {
 
 .maps {
   width: 100%;
-  max-width: 1298px;
 }
 
 .form-checkbox-text {
@@ -522,10 +585,13 @@ footer .navbar-nav {
 }
 
 .div-maps {
+  margin-bottom: 50px;
   width: 100%;
   margin-top: 100px;
   display: flex;
   justify-content: center;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
 }
 
 .div-footer {
@@ -533,13 +599,6 @@ footer .navbar-nav {
   padding: 80px 110px;
 }
 
-.logo-size {
-  left: 152px;
-}
-
-.menu-size {
-  margin-left: 80px;
-}
 
 .form-submit-icon {
   position: relative;
@@ -554,19 +613,6 @@ footer .navbar-nav {
   top: calc(100% * 0.2093048);
 }
 
-div-size-menu {
-  width: 791px;
-  height: 30px;
-}
-
-
-.custom-div {
-  background-color: #353535; /* Tło dla widoczności */
-  width: 100%;
-  max-width: 1600px;
-  height: auto; /* Auto dostosowywanie wysokości */
-  aspect-ratio: 1600 / 1932; /* Utrzymanie proporcji */
-}
 
 /* Dodane media queries */
 
@@ -688,9 +734,11 @@ div-size-menu {
     width: 100%;
   }
 
-  .crectangle1 {
-    height: 550px; /* Zmniejszenie wysokości */
-  }
+  .title-img > .container-fluid {
+    margin-top: -34px;
+  } {
+  height: 550px; /* Zmniejszenie wysokości */
+}
 
   .custom-content {
     flex-direction: column; /* Zmiana orientacji na kolumnę */
@@ -706,16 +754,6 @@ div-size-menu {
   }
 }
 
-/* Global styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-.container-fluid {
-  padding: 0;
-  margin: 0 auto;
-}
 
 .TextFrame {
   max-width: 100%;
@@ -857,7 +895,7 @@ body {
   margin-bottom: 60px;
 }
 
-.Frame497 {
+.services-text {
   padding-top: 70px;
   display: flex;
   flex-direction: column;
@@ -865,14 +903,14 @@ body {
   gap: 30px;
 }
 
-.Frame34 {
+.div-services {
   padding: 12px 24px;
   border-radius: 30px;
   border: 1px solid transparent;
   display: flex;
 }
 
-.NaszeUsUgi {
+.our-services {
   text-align: center;
   color: #F4E5D7;
   font-size: 12px;
@@ -883,22 +921,22 @@ body {
   letter-spacing: 2.28px;
 }
 
-.Frame508 {
+.div-layout-items {
   margin-bottom: 140px;
 }
 
-.Frame496 > .ZameczekEmilianWOferuje {
+.div-title-castle > .the-castle-offers {
   font-size: 42px;
 }
 
-.Frame496 {
+.div-title-castle {
   height: 48px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.ZameczekEmilianWOferuje {
+.the-castle-offers {
   text-align: center;
   color: #F3F3F3;
   font-size: 46px;
@@ -909,7 +947,7 @@ body {
 }
 
 /* Icon Containers */
-.Frame506,
+.div-container-items,
 .Frame507 {
   display: flex;
   gap: 16px;
@@ -929,7 +967,7 @@ body {
   height: 399px;
 }
 
-.Frame498, .Frame499, .Frame500, .Frame501, .Frame502, .Frame503, .Frame504, .Frame505 {
+.div-layouts-bufet, .div-layouts-catering, .div-layouts-frost, .Frame501, .Frame502, .Frame503, .Frame504, .Frame505 {
   display: flex;
   flex-direction: column;
   align-items: center;
