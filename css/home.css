@@ -308,6 +308,14 @@ div-size-menu {
   font-size: 18px;
 }
 
+.copyright-size {
+  font-size: 12px;
+}
+
+.copyright-company {
+  font-size: 12px;
+}
+
 .logo-container {
   height: 46px;
   width: 178px;
