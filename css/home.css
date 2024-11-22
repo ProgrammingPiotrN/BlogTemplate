@@ -1022,3 +1022,167 @@ img {
 .margin-img {
   margin-top: 10px;
 }
+
+/* Dostosowanie dla urządzeń o szerokości ekranu powyżej 1024px */
+@media (max-width: 1024px) {
+  .navbar-container .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .title-img {
+    height: 50vw; /* Proporcjonalne do szerokości ekranu */
+    object-fit: cover; /* Wypełnienie kontenera zdjęcia */
+  }
+
+  .title-img #hotel-title {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .title-img .title-third-line {
+    font-size: 2vw;
+  }
+
+  #button {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  #text_field {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .long-link {
+    font-size: 12px;
+  }
+
+  #_1_239_Coiumns {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  #_1_240_Frame_6 {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+  }
+}
+
+/* Dostosowanie dla urządzeń o szerokości ekranu poniżej 768px */
+@media (max-width: 768px) {
+  .navbar-container .navbar-nav {
+    gap: 5px;
+  }
+
+  .div-layout-items,
+  .Frame507 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  #hotel-title {
+    font-size: 6vw;
+  }
+
+  #text_field {
+    padding: 0;
+    width: 90%;
+  }
+
+  .title-img {
+    height: 40vw;
+    object-fit: cover;
+  }
+
+  #text_lorem_one {
+    font-size: 5vw;
+  }
+
+  .button-text {
+    font-size: 12px;
+  }
+
+  #_1_239_Coiumns {
+    flex-direction: column;
+  }
+
+  #_1_240_Frame_6 {
+    width: 95%;
+    height: auto;
+  }
+}
+
+/* Dostosowanie dla urządzeń o szerokości ekranu poniżej 480px */
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 10px;
+  }
+
+  .navbar-container .navbar-nav {
+    gap: 8px;
+  }
+
+  #hotel-title {
+    font-size: 6vw;
+  }
+
+  .title-img {
+    height: 35vw;
+    object-fit: cover;
+  }
+
+  #text_lorem_one {
+    font-size: 4vw;
+  }
+
+  #text_lorem_two {
+    font-size: 3vw;
+  }
+
+  #_1_239_Coiumns {
+    flex-direction: column;
+  }
+
+  #_1_240_Frame_6 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .div-layout-items,
+  .Frame507 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-layouts-bufet,
+  .div-layouts-catering,
+  .div-layouts-frost,
+  .div-layout-kids,
+  .Frame504 {
+    flex: 1 1 100%;
+    min-width: auto;
+  }
+
+  .TextFrame {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .Frame1 {
+    padding: 40px 20px;
+  }
+
+  .Img23981 {
+    width: 100%;
+    height: auto;
+  }
+}
+
