@@ -305,7 +305,7 @@ div-size-menu {
 
 .contact-label-color {
   color: #676767;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .logo-container {
@@ -1009,4 +1009,8 @@ img {
 .copyright-margin {
   margin-top: 35px;
 
+}
+
+.margin-img {
+  margin-top: 10px;
 }
