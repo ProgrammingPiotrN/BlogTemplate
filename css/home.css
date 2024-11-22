@@ -221,6 +221,7 @@ div-size-menu {
   align-items: flex-start;
   gap: 10px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 
@@ -303,7 +304,8 @@ div-size-menu {
 }
 
 .contact-label-color {
-  color: #969696;
+  color: #676767;
+  font-size: 12px;
 }
 
 .logo-container {
@@ -379,6 +381,7 @@ footer .navbar-nav {
   justify-content: center;
   align-items: flex-start;
   gap: 5rem; /* gap dostosowany do wartości 5 */
+  margin-top: 50px;
 }
 
 /* Stylowanie frames*/
@@ -582,6 +585,7 @@ footer .navbar-nav {
   text-align: center;
   height: 22px;
   position: relative;
+
 }
 
 .div-maps {
@@ -994,4 +998,15 @@ img {
 }
 
 
-/* Stylowanie sekcji tekstu w mobil
+#_1_262_Frame_33 {
+  margin-top: 40px;
+}
+
+.margin-footer {
+  margin-bottom: 50px;
+}
+
+.copyright-margin {
+  margin-top: 35px;
+
+}
